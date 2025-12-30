@@ -423,7 +423,7 @@ if queue_on_teleport then
     pcall(function()
         queue_on_teleport([[
             task.wait(1)
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/IlIlIIllII/unlockall_rivals/refs/heads/main/unlockall.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/reIics/yabujin/refs/heads/main/yabujin.lua"))()
         ]])
     end)
 end
