@@ -1,20 +1,7 @@
 if getgenv().UnlockAllLoaded then return end
 getgenv().UnlockAllLoaded = true
 
-local credits = [[
-
-
-__  __      __            _ _     
-\ \/ /___ _/ /_  __  __  (_|_)___ 
- \  / __ `/ __ \/ / / / / / / __ \
- / / /_/ / /_/ / /_/ / / / / / / /
-/_/\__,_/_.___/\__,_/_/ /_/_/ /_/ 
-                   /___/          
-
-
-                Yabujin skin changer
-
-]]
+print("hi")
 
 
 
@@ -436,7 +423,6 @@ if ClientEntity then
     end
 end
 loadConfig()
-print(credits)
 if queue_on_teleport then
     pcall(function()
         queue_on_teleport([[
