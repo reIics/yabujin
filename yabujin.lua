@@ -1,8 +1,6 @@
 if getgenv().UnlockAllLoaded then return end
 getgenv().UnlockAllLoaded = true
 
-print("hi")
-
 
 
 local Players = game:GetService("Players")
