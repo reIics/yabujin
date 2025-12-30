@@ -1,6 +1,18 @@
 if getgenv().UnlockAllLoaded then return end
 getgenv().UnlockAllLoaded = true
 
+print("""
+
+    __  __      __            _ _     
+\ \/ /___ _/ /_  __  __  (_|_)___ 
+ \  / __ `/ __ \/ / / / / / / __ \
+ / / /_/ / /_/ / /_/ / / / / / / /
+/_/\__,_/_.___/\__,_/_/ /_/_/ /_/ 
+                   /___/          
+
+    Yabujin skin changer
+    """)
+
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local HttpService = game:GetService("HttpService")
