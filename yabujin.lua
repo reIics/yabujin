@@ -18,11 +18,6 @@ __  __      __            _ _
 
 
 
-
-
-
-print(credits)
-
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local HttpService = game:GetService("HttpService")
@@ -441,6 +436,7 @@ if ClientEntity then
     end
 end
 loadConfig()
+print(credits)
 if queue_on_teleport then
     pcall(function()
         queue_on_teleport([[
